@@ -1,0 +1,13 @@
+{
+  "name": "The Knot & Narratives — Wedding Photography & Choreography",
+  "short_name": "Knot & Narratives",
+  "description": "Wedding photography, films and choreography studio based in Bengaluru, shooting destination weddings worldwide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF6EC",
+  "theme_color": "#1B2E28",
+  "icons": [
+    { "src": "/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

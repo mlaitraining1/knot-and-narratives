@@ -1,0 +1,13 @@
+{
+  "name": "the-knot-and-narratives",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Knot & Narratives — wedding photography & choreography studio website",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

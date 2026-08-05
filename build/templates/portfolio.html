@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header class="page-header">
+  <div class="page-header-media"><img src="/images/gallery/hero-portfolio.jpg" alt=""></div>
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> / Portfolio</p>
+    <h1>The Portfolio</h1>
+    <p class="lede u-mt-m" style="max-width:60ch">Weddings, pre-wedding sessions, choreography reels and destination celebrations — a working sample of frames from the last few seasons. Filter by category, or just scroll.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn is-active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="wedding">Weddings</button>
+      <button class="filter-btn" data-filter="prewedding">Pre-Wedding</button>
+      <button class="filter-btn" data-filter="choreography">Choreography</button>
+      <button class="filter-btn" data-filter="destination">Destination</button>
+      <button class="filter-btn" data-filter="portraits">Portraits</button>
+    </div>
+
+    <div class="masonry">
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-01.jpg" data-lightbox-caption="Ritika & Devansh — Bengaluru" src="/images/gallery/portfolio-01.jpg" alt="Bride portrait in golden hour light" loading="lazy"><span class="tag">Ritika &amp; Devansh — Bengaluru</span></div>
+      <div class="masonry-item" data-category="choreography"><img data-lightbox-src="/images/gallery/portfolio-02.jpg" data-lightbox-caption="Sangeet rehearsal — Bengaluru" src="/images/gallery/portfolio-02.jpg" alt="Sangeet choreography rehearsal" loading="lazy"><span class="tag">Sangeet Rehearsal</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-03.jpg" data-lightbox-caption="Meera & Arjun — Udaipur" src="/images/gallery/portfolio-03.jpg" alt="Wedding processional candid" loading="lazy"><span class="tag">Meera &amp; Arjun — Udaipur</span></div>
+      <div class="masonry-item" data-category="destination"><img data-lightbox-src="/images/gallery/portfolio-04.jpg" data-lightbox-caption="Sana & Farhan — Goa" src="/images/gallery/portfolio-04.jpg" alt="Beach wedding destination shoot" loading="lazy"><span class="tag">Sana &amp; Farhan — Goa</span></div>
+      <div class="masonry-item" data-category="choreography"><img data-lightbox-src="/images/gallery/portfolio-05.jpg" data-lightbox-caption="First dance — Coorg" src="/images/gallery/portfolio-05.jpg" alt="First dance choreography moment" loading="lazy"><span class="tag">First Dance — Coorg</span></div>
+      <div class="masonry-item" data-category="prewedding"><img data-lightbox-src="/images/gallery/portfolio-06.jpg" data-lightbox-caption="Ayesha & Rohan — Chikmagalur" src="/images/gallery/portfolio-06.jpg" alt="Pre-wedding couple shoot" loading="lazy"><span class="tag">Ayesha &amp; Rohan — Chikmagalur</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-07.jpg" data-lightbox-caption="Wedding ceremony — Jaipur" src="/images/gallery/portfolio-07.jpg" alt="Traditional wedding ceremony rituals" loading="lazy"><span class="tag">Neha &amp; Karan — Jaipur</span></div>
+      <div class="masonry-item" data-category="portraits"><img data-lightbox-src="/images/gallery/portfolio-08.jpg" data-lightbox-caption="Groom portrait — Mysuru" src="/images/gallery/portfolio-08.jpg" alt="Groom portrait session" loading="lazy"><span class="tag">Groom Portrait — Mysuru</span></div>
+      <div class="masonry-item" data-category="destination"><img data-lightbox-src="/images/gallery/portfolio-09.jpg" data-lightbox-caption="Destination sundowner — Alibaug" src="/images/gallery/portfolio-09.jpg" alt="Destination wedding sundowner reception" loading="lazy"><span class="tag">Alibaug Sundowner</span></div>
+      <div class="masonry-item" data-category="prewedding"><img data-lightbox-src="/images/gallery/portfolio-10.jpg" data-lightbox-caption="Couple shoot — Coonoor" src="/images/gallery/portfolio-10.jpg" alt="Pre-wedding hill station shoot" loading="lazy"><span class="tag">Coonoor Hills</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-11.jpg" data-lightbox-caption="Baraat entry — Delhi" src="/images/gallery/portfolio-11.jpg" alt="Baraat wedding entry procession" loading="lazy"><span class="tag">Baraat — Delhi</span></div>
+      <div class="masonry-item" data-category="portraits"><img data-lightbox-src="/images/gallery/portfolio-12.jpg" data-lightbox-caption="Bridal detail — Bengaluru" src="/images/gallery/portfolio-12.jpg" alt="Bridal jewellery and detail shot" loading="lazy"><span class="tag">Bridal Details</span></div>
+      <div class="masonry-item" data-category="choreography"><img data-lightbox-src="/images/gallery/portfolio-13.jpg" data-lightbox-caption="Group entry number — Hyderabad" src="/images/gallery/portfolio-13.jpg" alt="Group choreography entry number" loading="lazy"><span class="tag">Group Entry — Hyderabad</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-14.jpg" data-lightbox-caption="Reception — Bengaluru" src="/images/gallery/portfolio-14.jpg" alt="Wedding reception candid moment" loading="lazy"><span class="tag">Reception</span></div>
+      <div class="masonry-item" data-category="destination"><img data-lightbox-src="/images/gallery/portfolio-15.jpg" data-lightbox-caption="Destination mehendi — Jodhpur" src="/images/gallery/portfolio-15.jpg" alt="Destination wedding mehendi ceremony" loading="lazy"><span class="tag">Mehendi — Jodhpur</span></div>
+    </div>
+
+    <div class="u-center u-mt-l">
+      <p style="color:var(--ink-soft); font-size:0.92rem; margin-inline:auto; max-width:52ch;">This is a working sample — full galleries from each wedding run 400–900 frames and are shared privately with couples. Replace these placeholders with your own edited work before launch.</p>
+      <a href="/contact.html" class="btn btn-primary u-mt-m">Enquire About Your Date</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

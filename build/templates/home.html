@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Knot & Narratives",
+  "image": "{{ site_url }}/images/gallery/og-cover.jpg",
+  "url": "{{ site_url }}/",
+  "telephone": "+91-99000-00000",
+  "priceRange": "₹₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Indiranagar",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560038",
+    "addressCountry": "IN"
+  },
+  "sameAs": ["https://instagram.com", "https://pinterest.com", "https://youtube.com"],
+  "description": "{{ meta_description }}"
+}
+</script>
+{% endblock %}
+{% block content %}
+
+<section class="hero" id="top">
+  <div class="hero-media"><img src="/images/gallery/hero-home.jpg" alt="" role="presentation"></div>
+  <div class="container hero-content">
+    <p class="hero-eyebrow">Bengaluru · Destination weddings worldwide</p>
+    <h1 class="hero-title">Love, <em>choreographed</em>.<br>Moments, narrated.</h1>
+    <p class="hero-sub">A wedding photography and choreography studio — we spend as much care composing your first dance as we do composing your frame. One team, two crafts, a single story.</p>
+    <div class="hero-cta">
+      <a href="/portfolio.html" class="btn btn-gold">View the Portfolio</a>
+      <a href="/contact.html" class="btn btn-outline">Check Your Date</a>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div class="reveal">
+        <p class="eyebrow">The studio</p>
+        <h2>Most photographers arrive on the wedding day. <span class="script">We're already in the room.</span></h2>
+        <p class="u-mt-m" style="color:var(--ink-soft)">The Knot &amp; Narratives began with a simple, slightly stubborn idea: the way you move on your wedding day — down the aisle, into your first dance, through the mandap — shapes every photograph taken of it. So instead of hiring a photographer and a choreographer separately and hoping they sync up, our couples get both under one roof, working from one shared shot list, one timeline, one story.</p>
+        <p style="color:var(--ink-soft)">The result is footage and photography that looks less staged and more like it was always going to happen exactly that way.</p>
+        <a href="/about.html" class="btn btn-outline u-mt-l">Meet the Studio</a>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <svg class="thread-wrap" viewBox="0 0 400 420" width="100%" style="max-width:420px; margin-inline:auto; display:block;">
+          <path class="thread-path" d="M60 40 C 180 20, 200 120, 100 160 C 0 200, 40 300, 180 300 C 320 300, 300 380, 220 400" />
+          <circle cx="60" cy="40" r="5" fill="#D99A34"/>
+          <circle cx="220" cy="400" r="5" fill="#C1766F"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="knot-divider" aria-hidden="true">
+      <svg width="26" height="20" viewBox="0 0 26 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 10c0-5 6-8 9-4s-2 8-6 6 1-9 7-9 8 6 8 6"/></svg>
+    </div>
+
+    <div class="stats-strip reveal">
+      <div class="stat"><div class="num">240+</div><div class="label">Weddings told</div></div>
+      <div class="stat"><div class="num">31</div><div class="label">Cities shot in</div></div>
+      <div class="stat"><div class="num">9</div><div class="label">Countries</div></div>
+      <div class="stat"><div class="num">98%</div><div class="label">Referred by past couples</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Recent work</p>
+      <h2>A few frames from the last few weddings</h2>
+    </div>
+    <div class="grid grid-3 stagger">
+      <a href="/portfolio.html" class="img-frame reveal" style="aspect-ratio:3/4"><img src="/images/gallery/portfolio-01.jpg" alt="Bride in golden hour light, candid wedding portrait" loading="lazy" width="900" height="1200"></a>
+      <a href="/portfolio.html" class="img-frame reveal" style="aspect-ratio:3/4"><img src="/images/gallery/portfolio-03.jpg" alt="Wedding processional, candid documentary frame" loading="lazy" width="900" height="1100"></a>
+      <a href="/portfolio.html" class="img-frame reveal" style="aspect-ratio:3/4"><img src="/images/gallery/portfolio-05.jpg" alt="First dance choreography moment on the wedding floor" loading="lazy" width="900" height="1300"></a>
+    </div>
+    <div class="u-center u-mt-l reveal">
+      <a href="/portfolio.html" class="btn btn-primary">See the Full Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">What we do</p>
+      <h2>Two crafts, choreographed to work as one</h2>
+    </div>
+    <div class="grid grid-3 stagger">
+      <div class="card reveal">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/service-photo.jpg" alt="Wedding photography sample" loading="lazy" width="900" height="1100"></div>
+        <div style="padding:var(--space-m)">
+          <h4>Wedding Photography</h4>
+          <p style="font-size:0.92rem;color:var(--ink-soft);margin-top:0.5rem">Documentary coverage plus directed portraits — every ritual, every reaction, every in-between glance.</p>
+          <a href="/services.html#photography" class="btn btn-outline btn-sm u-mt-m">Learn more</a>
+        </div>
+      </div>
+      <div class="card reveal reveal-delay-1">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/service-choreo.jpg" alt="Wedding choreography rehearsal session" loading="lazy" width="900" height="1100"></div>
+        <div style="padding:var(--space-m)">
+          <h4>Wedding Choreography</h4>
+          <p style="font-size:0.92rem;color:var(--ink-soft);margin-top:0.5rem">First dances, sangeet numbers and entry choreography built around your comfort level, not a reality show.</p>
+          <a href="/services.html#choreography" class="btn btn-outline btn-sm u-mt-m">Learn more</a>
+        </div>
+      </div>
+      <div class="card reveal reveal-delay-2">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/service-films.jpg" alt="Cinematic wedding film still" loading="lazy" width="900" height="1100"></div>
+        <div style="padding:var(--space-m)">
+          <h4>Cinematic Films</h4>
+          <p style="font-size:0.92rem;color:var(--ink-soft);margin-top:0.5rem">A same-day highlight edit for your reception, and a longer film for the mornings you'll want to rewatch it.</p>
+          <a href="/services.html#films" class="btn btn-outline btn-sm u-mt-m">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-row">
+  <div class="marquee-track">
+    <img src="/images/gallery/insta-01.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-02.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-03.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-04.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-05.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-06.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-07.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-08.jpg" alt="" loading="lazy">
+    <img src="/images/gallery/insta-01.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-02.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-03.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-04.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-05.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-06.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-07.jpg" alt="" loading="lazy"><img src="/images/gallery/insta-08.jpg" alt="" loading="lazy">
+  </div>
+</div>
+
+<section class="section section--dark">
+  <div class="container">
+    <p class="eyebrow" style="justify-content:center">In their words</p>
+    <div class="testimonial-slider" data-testimonial-slider>
+      <div class="testimonial-slide is-active">
+        <blockquote>"They choreographed our sangeet AND shot our wedding, which meant our photographer already knew exactly where I'd be standing for the lift. Every photo of that number is in focus, in frame, on time."</blockquote>
+        <p class="who">— Ritika &amp; Devansh, Bengaluru</p>
+      </div>
+      <div class="testimonial-slide">
+        <blockquote>"I hate being photographed. Somehow three days with this team and I forgot the camera was there half the time. The pictures still don't feel like they're 'of' me — they feel like they're of the day."</blockquote>
+        <p class="who">— Meera &amp; Arjun, Udaipur</p>
+      </div>
+      <div class="testimonial-slide">
+        <blockquote>"Our families are not dancers. They made twelve aunties look genuinely good on camera without a single person feeling embarrassed at rehearsal. That's a harder job than it sounds."</blockquote>
+        <p class="who">— Sana &amp; Farhan, Goa</p>
+      </div>
+      <div class="testimonial-dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">From the journal</p>
+      <h2>Recent stories</h2>
+    </div>
+    <div class="grid grid-3 stagger">
+      <div class="story-card reveal">
+        <a href="/stories.html" class="img-frame"><img src="/images/gallery/story-01.jpg" alt="Ritika and Devansh wedding story cover" loading="lazy" width="900" height="700"></a>
+        <div class="meta"><span>Bengaluru</span><span>Sangeet + Wedding</span></div>
+        <h3>Ritika &amp; Devansh</h3>
+        <p>A three-day wedding built around a sangeet number the bride swore she'd never agree to.</p>
+        <a href="/stories.html" class="read-more">Read the story <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor"><path d="M1 5h11M8 1l4 4-4 4"/></svg></a>
+      </div>
+      <div class="story-card reveal reveal-delay-1">
+        <a href="/stories.html" class="img-frame"><img src="/images/gallery/story-02.jpg" alt="Meera and Arjun destination wedding story cover" loading="lazy" width="900" height="700"></a>
+        <div class="meta"><span>Udaipur</span><span>Destination</span></div>
+        <h3>Meera &amp; Arjun</h3>
+        <p>Rain moved the ceremony indoors ninety minutes before the vows. Here's what we did instead.</p>
+        <a href="/stories.html" class="read-more">Read the story <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor"><path d="M1 5h11M8 1l4 4-4 4"/></svg></a>
+      </div>
+      <div class="story-card reveal reveal-delay-2">
+        <a href="/stories.html" class="img-frame"><img src="/images/gallery/story-03.jpg" alt="Sana and Farhan Goa wedding story cover" loading="lazy" width="900" height="700"></a>
+        <div class="meta"><span>Goa</span><span>Beach Wedding</span></div>
+        <h3>Sana &amp; Farhan</h3>
+        <p>Twelve aunties, one reluctant uncle, and a choreography brief that started with "nothing embarrassing."</p>
+        <a href="/stories.html" class="read-more">Read the story <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor"><path d="M1 5h11M8 1l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" style="background:var(--ink); color:var(--canvas); text-align:center;">
+  <div class="container reveal">
+    <p class="eyebrow" style="justify-content:center">Dates fill quickly in wedding season</p>
+    <h2 style="max-width:20ch; margin-inline:auto;">Let's start with your date and your city.</h2>
+    <div class="hero-cta" style="justify-content:center; margin-top: var(--space-l);">
+      <a href="/contact.html" class="btn btn-gold">Check Availability</a>
+      <a href="/pricing.html" class="btn btn-outline">See Packages</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

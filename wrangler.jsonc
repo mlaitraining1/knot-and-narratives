@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "knot-and-narratives",
+  "compatibility_date": "2026-08-06",
+  "assets": {
+    "directory": ".",
+    "exclude": [
+      "node_modules/**",
+      "build/**",
+      ".git/**",
+      ".github/**",
+      ".vscode/**",
+      "package*.json",
+      "bun.lock",
+      "vercel.json"
+    ]
+  }
+}
